@@ -9,7 +9,7 @@ I started by importing the necessary libraries and reading two separate datasets
 
 2.Naive Byes Model Training:
 
-After vectorization, the document-term matrix (DTM) was converted into a pandas DataFrame. Each row in this DataFrame corresponds to a document, with columns representing the frequency of each term after vectorization.I then split the dataset into training (70%) and testing (30%) sets.I applied a Multinomial Naive Bayes classifier to the training data. This type of classifier is suitable for classification with discrete features (e.g., word counts for text classification).
+After vectorization, the document Malware Matrix was converted into a pandas DataFrame. Each row in this DataFrame corresponds to a document, with columns representing the frequency of each term after vectorization.I then split the dataset into training (70%) and testing (30%) sets.I applied a Multinomial Naive Bayes classifier to the training data. This type of classifier is suitable for classification with discrete features (e.g., word counts for text classification).
 
 3.Model Evaluation:
 
